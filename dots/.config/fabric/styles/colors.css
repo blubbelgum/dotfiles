@@ -1,0 +1,19 @@
+:vars {
+  --foreground: #dee3e6;
+  --background: #0f1416;
+  --cursor: #dee3e6;
+  --primary: #86d1e9;
+  --on-primary: #003641;
+  --secondary: #b2cad3;
+  --on-secondary: #1d343a;
+  --tertiary: #c0c4eb;
+  --on-tertiary: #2a2e4d;
+  --surface: #0f1416;
+  --surface-bright: #343a3c;
+  --error: #ffb4ab;
+  --error-dim: #ff8678;
+  --on-error: #690005;
+  --error-container: #93000a;
+  --outline: #899296;
+  --shadow: #000000;
+}
