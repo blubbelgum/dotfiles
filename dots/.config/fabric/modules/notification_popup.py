@@ -161,13 +161,15 @@ class NotificationBox(Box):
             return None
 
     def create_action_buttons(self, notification):
+        # this is fix extra button on notification by removing first item
+        notif = notification.actions[1:]
         return Box(
             name="notification-action-buttons",
             spacing=4,
             h_expand=True,
             children=[
-                ActionButton(action, i, len(notification.actions), self)
-                for i, action in enumerate(notification.actions)
+                ActionButton(action, i, len(notif), self)
+                for i, action in enumerate(notif)
             ],
         )
 
